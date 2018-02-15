@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  font-family: 'Calibri', 'Calibri', Arial;
+}
+
+/* .App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+} */
+
+.App-header {
+  /* background-color: #606062; */
+  background-color: black;
+  height: 450px;
+  padding-top: 20px;
+  /* color: white; */
+  color: #b73450;
+  font-size: 35px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.logo {
+  width:580px;
+  padding-top: 20px;
+  padding-bottom: 70px;
+  /* display:block; */
+  /* border:1px solid black; */
+}
+.logo-container {
+}
+.construction-container {
+  padding-top: 10px;
+}
+
+h5 {
+  font-size: 35px;
+  color: #b73450;
+}
+.emptydiv {
+  height:50px;
+}
+.details-card {
+  text-align: left;
+  /* border:1px solid black; */
+  /* position: absolute; */
+  /* left: 10%; */
+}
+
+@media only screen and (max-width:600px) {
+  .App-header,
+  .logo-container,
+  .container,
+  .logo {
+    width:100%;
+  }
+}
+@media only screen and (min-width:1000px) {
+  .logo {
+    width: 900px;
+  }
+}
+/* @keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */
